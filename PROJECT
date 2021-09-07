@@ -1,0 +1,28 @@
+version: "1"
+domain: ndd.yndd.io
+repository: github.com/yndd/ndd-provider-sros
+name: ndd-provider-sros
+resources:
+- gvk:
+    group: sros
+    domain: ndd.yndd.io
+    version: v1alpha1
+    kind: Registration
+  plural: ""
+  path: github.com/yndd/ndd-provider-sros/apis/sros/v1alpha1
+  api:
+    crdversion: v1alpha1
+    namespaced: false
+  controller: true
+  yang:
+    fullname: ""
+    pathelem: []
+    level: 0
+    firstelementkey: ""
+    firstelementtype: ""
+    lastelement: ""
+    containers: []
+    helements: []
+    localleafrefs: []
+    externalleafrefs: []
+    internalresourcepaths: []

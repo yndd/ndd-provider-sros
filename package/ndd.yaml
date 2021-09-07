@@ -1,0 +1,8 @@
+
+apiVersion: meta.pkg.ndd.yndd.io/v1
+kind: Provider
+metadata:
+  name: ndd-provider-sros
+spec:
+  controller:
+    image: yndd/ndd-provider-sros-controller:latest
